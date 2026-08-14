@@ -1,0 +1,21 @@
+# Local credentials and runtime configuration
+config.json
+*.cookies
+.env
+
+# Generated crawl data, local WorkBuddy state and logs
+output/
+.workbuddy/
+*.log
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Generated distributable packages
+*.zip
